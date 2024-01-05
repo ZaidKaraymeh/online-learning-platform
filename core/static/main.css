@@ -1,0 +1,94 @@
+:root {
+    --bg-1: #1B1B1D;
+    --bg-2: #1B1C1F;
+    --bg-3: #222327;
+    --bg-4: #292A30;
+}
+
+@font-face {
+  font-family: 'Gulzar-Regular';
+  src: local('Gulzar-Regular'),
+       url('../static/fonts/Gulzar-Regular.ttf') format("truetype");
+}
+@font-face {
+  font-family: 'ElMessiri-Bold';
+  src: local('ElMessiri-Bold'),
+       url('../static/fonts/ElMessiri-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'ElMessiri-Medium';
+  src: local('ElMessiri-Medium'),
+       url('../static/fonts/ElMessiri-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'ElMessiri-Regular';
+  src: local('ElMessiri-Regular'),
+       url('../static/fonts/ElMessiri-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'ElMessiri-SemiBold';
+  src: local('ElMessiri-SemiBold'),
+       url('../static/fonts/ElMessiri-SemiBold.ttf') format('truetype');
+}
+.ff-messiri-bold {
+  font-family: 'ElMessiri-Bold', sans-serif;
+}
+
+.ff-messiri-medium {
+  font-family: 'ElMessiri-Medium', sans-serif;
+}
+
+.ff-messiri-regular {
+  font-family: 'ElMessiri-Regular', sans-serif;
+}
+
+.ff-messiri-semibold {
+  font-family: 'ElMessiri-SemiBold', sans-serif;
+}
+
+.ff-gulzar-regular {
+  font-family: 'Gulzar-Regular', serif;
+  /* Add other styling properties as needed */
+}
+
+
+
+.navbar-brand {
+    font-family: 'Gulzar-Regular' !important;
+}
+
+h1, h2 {
+    font-family: 'ElMessiri-Bold' !important;
+}
+h3, h4, h5, h6 {
+    font-family: 'ElMessiri-SemiBold' !important;
+}
+p {
+    font-family: 'ElMessiri-Regular';
+}
+
+body {
+    background-color: var(--bg-2);
+    font-family: 'ElMessiri-Regular';
+}
+
+.bg-1 {
+    background-color: var(--bg-1) !important;
+}
+.bg-2 {
+    background-color: var(--bg-2) !important;
+}
+.bg-3 {
+    background-color: var(--bg-3) !important;
+}
+.bg-4 {
+    background-color: var(--bg-4) !important;
+}
+
+.card-shadow:hover {
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 8px 24px;
+    transition: 0.2s;
+}
