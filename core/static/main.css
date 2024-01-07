@@ -3,8 +3,9 @@
     --bg-2: #1B1C1F;
     --bg-3: #222327;
     --bg-4: #292A30;
+    --bg-5: #41434e;
+    --bg-6: #cccbff;
 }
-
 @font-face {
   font-family: 'Gulzar-Regular';
   src: local('Gulzar-Regular'),
@@ -87,8 +88,44 @@ body {
 .bg-4 {
     background-color: var(--bg-4) !important;
 }
+.bg-5 {
+    background-color: var(--bg-5) !important;
+}
+.bg-6 {
+    background-color: var(--bg-6) !important;
+}
 
-.card-shadow:hover {
-    box-shadow: rgba(255, 255, 255, 0.2) 0px 8px 24px;
+.color-1 {
+    color: var(--bg-1) !important;
+}
+.color-2 {
+    color: var(--bg-2) !important;
+}
+.color-3 {
+    color: var(--bg-3) !important;
+}
+.color-4 {
+    color: var(--bg-4) !important;
+}
+.color-5 {
+    color: var(--bg-5) !important;
+}
+
+.color-6 {
+    color: var(--bg-6) !important;
+}
+
+
+.bg-5-shadow-on-hover:hover {
+    box-shadow: var(--bg-5) 0px 8px 24px;
     transition: 0.2s;
+}
+
+.bg-5-on-hover:hover {
+    background-color: var(--bg-5);
+    transition: 0.2s;
+}
+
+.bg-5-border {
+  border-color: var(--bg-5) !important;
 }
